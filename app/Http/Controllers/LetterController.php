@@ -20,7 +20,7 @@ class LetterController extends Controller
             $query->where('judul', 'like', '%' . $search . '%');
         }
 
-        $letters = $query->with('category')->orderBy('waktu_pengarsipan', 'desc')->paginate(10);
+        $letters = $query->with('category')->orderBy('waktu_pengarsipan', 'desc')->paginate(5);
 
         return view('letters.index', compact('letters', 'search'));
     }
