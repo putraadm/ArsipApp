@@ -96,18 +96,6 @@ Aplikasi Arsip App adalah sistem manajemen arsip surat digital yang dirancang un
    
    Buka browser dan akses `http://localhost:8000`
 
-### Perintah Development Lainnya
-
-- **Build Assets untuk Production**
-  ```bash
-  npm run build
-  ```
-
-- **Jalankan Testing**
-  ```bash
-  php artisan test
-  ```
-
 ## Dokumentasi
 Halaman Utama Arsip
 ![Halaman Utama Arsip](wdocs/main_arsip_page.png)
